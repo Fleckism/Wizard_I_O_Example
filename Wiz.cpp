@@ -30,6 +30,7 @@ void Wizard::print()
 	cout << endl;
 }
 // save is referecing an ofstream object called outFile
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Error below
 void Wizard::save(ofstream& outFile)
 {
 	outFile << "Name= " << mName << endl;

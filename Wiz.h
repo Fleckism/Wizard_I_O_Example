@@ -5,6 +5,7 @@
 
 #include <fstream>
 #include <string>
+#include <iostream>
 
 class Wizard
 {
@@ -13,7 +14,7 @@ public:
 	Wizard(std::string name, int hp, int mp, int armor);
 
 	void print();
-
+	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Error below
 	void save(std::ofstream& outFile);
 	void load(std::ifstream& inFile);
 	
